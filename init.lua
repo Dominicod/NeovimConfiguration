@@ -18,4 +18,5 @@ require('lazy').setup {
   require 'config/plugins/todo-comments',
   require 'config/plugins/mini-nvim',
   require 'config/plugins/treesitter',
+  require 'config/plugins/copilot-chat',
 }

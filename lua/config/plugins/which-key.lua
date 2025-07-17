@@ -52,6 +52,7 @@ return {
         { '<leader>re', group = '[E]mr' },
         { '<leader>g', group = '[G]it' },
         { 'gr', group = 'LSP' },
+        { '<leader>c', group = '[C]opilot' },
       },
     },
   },
