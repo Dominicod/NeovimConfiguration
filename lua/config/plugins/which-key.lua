@@ -50,7 +50,6 @@ return {
         { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } },
         { '<leader>r', group = '[R]un', mode = { 'n' } },
         { '<leader>re', group = '[E]mr' },
-        { '<leader>g', group = '[G]it' },
         { 'gr', group = 'LSP' },
         { '<leader>c', group = '[C]opilot' },
       },
