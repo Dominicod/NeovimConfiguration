@@ -58,6 +58,7 @@ return {
       vim.keymap.set('n', '<leader>sf', function()
         require('telescope.builtin').find_files {
           hidden = true,
+          no_ignore = true,
         }
       end, { desc = '[S]earch [F]iles' })
       vim.keymap.set('n', '<leader>sg', function()
