@@ -19,4 +19,5 @@ require('lazy').setup {
   require 'config/plugins/mini-nvim',
   require 'config/plugins/treesitter',
   require 'config/plugins/copilot-chat',
+  require 'config/plugins/nvim-dap',
 }
